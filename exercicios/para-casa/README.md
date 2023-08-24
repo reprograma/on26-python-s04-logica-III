@@ -1,10 +1,12 @@
 # Exercício de Casa 🏠 
+#### Exercício de de Estrutura de Repetição
+https://wiki.python.org.br/EstruturaDeRepeticao
+Exercício 36. 
 
-## Nome do Exercicio
+#### Exercícios Com Listas
+https://wiki.python.org.br/EstruturaDeRepeticao
+Exercício 5. 
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!

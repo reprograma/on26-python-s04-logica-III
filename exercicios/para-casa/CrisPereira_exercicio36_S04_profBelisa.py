@@ -15,7 +15,7 @@ def usuario():
 
 numero_tabuada, inicio_tabuada, fim_tabuada = usuario()
 
-while fim_tabuada <= inicio_tabuada:
+while fim_tabuada < inicio_tabuada:
     print("Por favor, informe números inteiros e o número inicial deve ser menor que o último.")
     numero_tabuada, inicio_tabuada, fim_tabuada = usuario()
 

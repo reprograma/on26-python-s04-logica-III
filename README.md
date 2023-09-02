@@ -17,7 +17,7 @@ https://wiki.python.org.br/EstruturaDeRepeticao
 Exercício 36. 
 
 #### Exercícios Com Listas
-https://wiki.python.org.br/EstruturaDeRepeticao
+https://wiki.python.org.br/ExerciciosListas
 Exercício 5. 
 
 Sugestão extra: www.beecrowd.com.br/

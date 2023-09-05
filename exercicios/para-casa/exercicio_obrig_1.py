@@ -1,0 +1,33 @@
+
+# Desenvolva um programa que faça a tabuada de um número qualquer inteiro que será digitado pelo usuário, 
+# mas a tabuada não deve necessariamente iniciar em 1 e terminar em 10, 
+# o valor inicial e final devem ser informados também pelo usuário, conforme exemplo abaixo:
+
+## Montar a tabuada de: 5
+## Começar por: 4
+##  Terminar em: 7
+
+###  Vou montar a tabuada de 5 começando em 4 e terminando em 7:
+### 5 X 4 = 20
+### 5 X 5 = 25
+### 5 X 6 = 30
+### 5 X 7 = 35
+
+### Obs: Você deve verificar se o usuário não digitou o final menor que o inicial. 
+
+numero = int(input("Digite o número cuja tabuada você quer conhecer: "))
+comeco = int(input("Começando em: "))
+final = int(input("E terminando em: "))
+multiplicacao = 0
+
+while final < comeco or numero < 0 or comeco < 0 or final < 0 or numero > 10 or final > 10 or comeco > 10:
+    print("Informe valores válidos de começo e de final. O programa só aceita números inteiros e positivos, de 1 a 10")
+    numero = int(input("Digite o número cuja tabuada você quer conhecer: "))
+    comeco = int(input("Começando em: "))
+    final = int(input("E terminando em: "))
+else:
+    while (numero*comeco) <= (numero * final):
+        print(numero, "X", comeco, "=", (numero*comeco))
+        comeco += 1
+
+print("Fim do programa")

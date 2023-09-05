@@ -1,0 +1,30 @@
+# Semana 04 - exercício da Semana
+# Prof Belisa - estudante Cris Pereira
+
+# Ex. 5
+# Faça um Programa que leia 20 números inteiros e armazene-os num vetor. Armazene os números pares no vetor PAR e os números IMPARES no vetor impar. Imprima os três vetores.
+
+print("Programa divindo alhos e bugalhos")
+print("Insira abaixo 20 números, um por vez:")
+
+lista_usuario = []
+lista_par = []
+lista_impar = []
+
+for usuario in range (20):
+    usuario+= 1
+    lista_usuario.append(int(input(f"Informe o {usuario}º algarismo: "))) 
+
+for index in range (20):
+    identificador = lista_usuario[index] % 2
+    if identificador != 0:
+        lista_impar.append(lista_usuario[index])
+    else:
+        lista_par.append(lista_usuario[index])
+    index+= 1
+
+print("A sua lista de números em ordem crescente:", sorted(lista_usuario))
+print("Os números pares da sua lista são:", sorted(lista_par))
+print("Os números ímpares da sua lista são:", sorted(lista_impar))
+print(" ")
+print("Fim do programa")

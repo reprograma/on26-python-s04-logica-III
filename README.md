@@ -1,5 +1,3 @@
-# ementa-python-analise-dados
-
 ## S03 - Condicionais, operadores lógicos, erros e exceções
 
 ### Material base: https://docs.google.com/presentation/d/1RyITgNV1uzJHum-h6of_PILQeUYqvjrUaQEYA0SHhNU/
@@ -17,7 +15,7 @@ https://wiki.python.org.br/EstruturaDeRepeticao
 Exercício 36. 
 
 #### Exercícios Com Listas
-https://wiki.python.org.br/EstruturaDeRepeticao
+https://wiki.python.org.br/ExerciciosListas
 Exercício 5. 
 
 Sugestão extra: www.beecrowd.com.br/

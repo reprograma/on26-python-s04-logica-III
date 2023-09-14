@@ -37,3 +37,6 @@ else:
 print("Numeros digitados:", numeros)
 print("Numeros pares:", pares)
 print("Numeros impares:", impares)
+
+
+Semana 4 - Dayani

@@ -2,8 +2,6 @@ def calcula_media(nota1, nota2, nota3):
     media = (nota1 + nota2 + nota3)/3
     return media
 
-nota1 = 15
-nota2 = 98
-nota3 = 75
+nota = [15, 98, 75]
 
-print(calcula_media(nota1, nota2, nota3))
+print(calcula_media(nota[0], nota[1], nota[2]))
